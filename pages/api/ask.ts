@@ -1,0 +1,1 @@
+// placeholder content for pages/api/ask.ts

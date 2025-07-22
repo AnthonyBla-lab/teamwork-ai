@@ -1,0 +1,21 @@
+{
+  "name": "teamwork-homework-helper",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "13.4.10",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tesseract.js": "^4.0.2",
+    "mathjs": "^11.11.0",
+    "pdfjs-dist": "^3.4.120"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

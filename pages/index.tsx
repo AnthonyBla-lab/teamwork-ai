@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from 'react';
 import Head from 'next/head';
 import Tesseract from 'tesseract.js';
 import math from 'mathjs';
-import pdfjsLib from 'pdfjs-dist';
 
 export default function Home() {
   const [messages, setMessages] = useState([
@@ -51,4 +50,4 @@ export default function Home() {
     });
 
     const data = await res.json();
-    setMessages([...newMessages, { role: ']()
+    setMessages([...newMessages, { role: 'ai', content: data.]()
